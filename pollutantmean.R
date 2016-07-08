@@ -1,4 +1,4 @@
-spollutantmean <- function(directory, pollutant, id = 1:332) {
+pollutantmean <- function(directory, pollutant, id = 1:332) {
   ## 'directory' is a character vector of length 1 indicating
   ## the location of the CSV files
   base_dir <- paste(getwd(), directory, sep="/")
